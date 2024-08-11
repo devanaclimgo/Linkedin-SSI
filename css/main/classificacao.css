@@ -1,0 +1,57 @@
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 17rem;
+  padding-right: 17rem;
+}
+
+main h1 {
+  font-weight: 400;
+  font-size: 1.875rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.classificacao {
+  background: var(--color-w);
+  border: 1px solid var(--color-c7);
+  display: flex;
+  flex-basis: 46%;
+  padding: 0.75rem;
+  gap: 0.55rem;
+  align-items: center;
+}
+
+.classificacao div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.classificacao div h3 {
+  color: var(--color-c8);
+  font-weight: 200;
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.classificacao div p {
+  font-size: 1.625rem;
+}
+
+.classificacao div p span {
+  color: var(--color-c8);
+  font-size: 1.125rem;
+}
+
+.classificacao p {
+  font-weight: 500;
+  font-size: 1.275rem;
+}

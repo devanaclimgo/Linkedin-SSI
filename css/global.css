@@ -1,0 +1,31 @@
+@import url("./header-footer.css");
+@import url("./main/classificacao.css");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --color-w: #FFFFFF;
+  --color-c1: #F5F5F5;
+  --color-c2: #E55800;
+  --color-c3: #827BE9;
+  --color-c4: #087889;
+  --color-c5: #0091CA;
+  --color-c6: #004182;
+  --color-c7: #D0D0D0;
+  --color-c8: #666666;
+  --preto: #000000;
+  --font-1: "Arial";
+  --font-tit: "Inria Sans", sans-serif;
+}
+
+.font-tit {
+  font: 300 1.375rem/1 "Inria Sans", sans-serif;
+}
+
+body {
+  background-color: var(--color-c1);
+  font-family: "Arial";
+}
