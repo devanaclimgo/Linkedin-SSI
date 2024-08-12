@@ -22,9 +22,9 @@ main h1 {
 .classificacao {
   background: var(--color-w);
   border: 1px solid var(--color-c7);
-  display: flex;
   flex-basis: 46%;
   padding: 0.75rem;
+  display: flex;
   gap: 0.55rem;
   align-items: center;
 }

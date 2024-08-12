@@ -15,6 +15,12 @@
   display: flex;
   gap: 0.5rem;
   align-items: center;
+  letter-spacing: 0.2rem;
+}
+
+.header-titulo img {
+  width: 24px;
+  height: 24px;
 }
 
 .header-titulo h1 {
@@ -23,5 +29,10 @@
 
 .header-perfil {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
+}
+
+.header-perfil img {
+  height: 20px;
+  width: 20px;
 }
