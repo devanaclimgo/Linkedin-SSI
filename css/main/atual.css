@@ -1,7 +1,6 @@
 .container-2 {
   background: var(--color-w);
   border: 1px solid var(--color-c7);
-  flex-basis: 46%;
   padding: 0.75rem;
 }
 
@@ -35,23 +34,6 @@
 .atual-grafico img {
   margin-left: 5rem;
   margin-top: 1rem;
-}
-
-.atual-grafico-texto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.atual-grafico-texto h5 {
-  font-size: 3rem;
-  font-weight: 100;
-  font-family: var(--font-tit);
-}
-
-.atual-grafico-texto span {
-  color: var(--color-c8);
 }
 
 .atual-componentes {

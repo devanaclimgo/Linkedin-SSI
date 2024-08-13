@@ -1,18 +1,3 @@
-main {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding-left: 17rem;
-  padding-right: 17rem;
-}
-
-main h1 {
-  font-weight: 400;
-  font-size: 1.875rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-  letter-spacing: 0.1rem;
-}
-
 .container-1 {
   display: flex;
   justify-content: space-between;

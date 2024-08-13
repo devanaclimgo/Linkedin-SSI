@@ -1,6 +1,7 @@
 @import url("./header.css");
 @import url("./main/classificacao.css");
 @import url("./main/atual.css");
+@import url("./main/pessoas.css");
 
 * {
   margin: 0px;
@@ -38,6 +39,39 @@ main {
   gap: 1rem;
 }
 
-section {
+main {
   max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 17rem;
+  padding-right: 17rem;
+}
+
+main h1 {
+  font-weight: 400;
+  font-size: 1.875rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+
+section {
+  max-width: 1300px;
+}
+
+.grafico-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.grafico-texto h5 {
+  font-size: 3rem;
+  font-weight: 100;
+  font-family: var(--font-tit);
+}
+
+.grafico-texto span {
+  color: var(--color-c8);
 }
