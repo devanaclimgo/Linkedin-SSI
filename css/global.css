@@ -2,6 +2,7 @@
 @import url("./main/classificacao.css");
 @import url("./main/atual.css");
 @import url("./main/pessoas.css");
+@import url("./main/saiba-mais.css");
 
 * {
   margin: 0px;
@@ -19,6 +20,7 @@
   --color-c7: #D0D0D0;
   --color-c8: #666666;
   --color-c9: #E1E9EE;
+  --color-c10: #0073B1;
   --preto: #000000;
   --font-1: "Arial";
   --font-tit: "Inria Sans", sans-serif;
