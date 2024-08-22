@@ -53,3 +53,24 @@
 .pessoas-texto span {
   font-size: 0.75rem;
 }
+
+@media (max-width: 995px) {
+  .pessoas-container {
+    grid-template-columns: 1fr;
+  }
+  .pessoas-texto p {
+    font-size: 1.25rem;
+    line-height: 1.65rem;
+  }
+  .pessoas-texto span {
+    font-size: 1rem;
+  }
+  .pessoas-conteudo {
+    justify-content: center;
+  }
+}
+@media (max-width: 585px) {
+  .container-3 {
+    grid-template-columns: 1fr;
+  }
+}

@@ -9,11 +9,19 @@
   justify-content: space-around;
   align-items: center;
   max-width: 1400px;
-  padding-right: 8rem;
+  flex-wrap: wrap;
+}
+
+.saiba-mais-texto {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .saiba-mais h4 {
   font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .saiba-mais a {
@@ -23,4 +31,15 @@
   font-size: 0.875rem;
   padding: 0.5rem 0.75rem;
   border-radius: 3px;
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .saiba-mais h4 {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+  }
+  .saiba-mais a {
+    font-size: 1.2rem;
+  }
 }
